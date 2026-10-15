@@ -1,0 +1,20 @@
+# Secrets (never upload)
+kaggle.json
+access_token
+
+# Raw data (download it again from Kaggle with Notebook 1)
+data/raw/
+
+# SQLite database (created again by Notebook 3)
+*.db
+
+# Backup notebooks (Git keeps the history from now on)
+notebooks/*_before_*.ipynb
+
+# Personal planning notes
+PROJECT_BASELINE.md
+plan.txt
+
+# Python and Jupyter files
+__pycache__/
+.ipynb_checkpoints/
